@@ -16,7 +16,7 @@ def preprocess_mnist():
     print(X_train.shape[0], 'train samples')
     print(X_test.shape[0], 'test samples')
 
-    return (X_train, Y_train), (X_test, Y_test) 
+    return (X_train, y_train), (X_test, y_test) 
 
 
 def add_tranform_to_dataset(dataset):
